@@ -10,11 +10,18 @@
 > 
 > -- <a href="https://www.bbc.co.uk/bitesize/guides/zbtjnrd/revision/6"><cite>The death of Jekyll</cite></a>
 
------
-
 See Not Pure Poole in action with [the demo site](https://vszhub.github.io/not-pure-poole/).
 
 ![Screenshot](screenshot.png)
+=======
+
+---
+
+See Not Pure Poole in action with [the demo site](https://vszhub.github.io/not-pure-poole/).
+
+![Screenshot](file://C:\Users\user11\OneDrive\바탕 화면\hyojukim-game-on.github.io\screenshot.png?msec=1701866354691)
+
+> > > > > > > 28f8f01330a16101f1e8451f4fd2191025be7f72
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -61,6 +68,7 @@ You can choose one of the following methods to install Not Pure Poole:
 - Directly specify the `not-pure-poole` gem.
   
   1. Add `gem 'not-pure-poole'` into your `Gemfile`.
+     <<<<<<< HEAD
   
   2. Add the below lines into your `_config.yml`.
      
@@ -81,6 +89,30 @@ You can choose one of the following methods to install Not Pure Poole:
      
      remote_theme: vszhub/not-pure-poole
      ```
+     
+     =======
+  
+  3. Add the below lines into your `_config.yml`.
+     
+     ```yml
+     plugins:
+      - not-pure-poole
+     ```
+
+- If your site is hosted on GitHub Pages, you can use [`jekyll-remote-theme`](https://github.com/benbalter/jekyll-remote-theme) to import the master branch of Not Pure Poole.
+  
+  1. Add `gem 'jekyll-remote-theme'` into your `Gemfile`.
+  
+  2. Add the below lines into your `_config.yml`.
+     
+     ```yml
+     plugins:
+      - jekyll-remote-theme
+     
+     remote_theme: vszhub/not-pure-poole
+     ```
+
+> > > > > > > 28f8f01330a16101f1e8451f4fd2191025be7f72
 
 ## Usage
 
